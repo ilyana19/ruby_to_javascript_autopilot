@@ -27,7 +27,7 @@ for(var i = 0; i < 10; i++) {
 
 var base = 5;
 for(var i = 1; i < 20; i++) {
-  num = i + base;
+  var num = i + base;
   console.log(num);
 }
 
